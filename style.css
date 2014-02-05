@@ -1,0 +1,87 @@
+/*NavBar*/
+ol {
+	list-style-type: none;
+	float: right;
+	margin-right: 40px;
+}
+
+/*NavBar links*/
+li {
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #369;
+}
+
+/*Sign In Link*/
+#sign-in {
+	color: #18afe0;
+}
+
+/*Logo*/
+#container {
+	clear: right;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*Content*/
+#product-container {
+	width: 820px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 58px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	letter-spacing: -2px;
+	color: #232323;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+}
+
+.callout {
+	width: 160px;
+	margin: 15px 20px 5px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px 10px;
+	text-decoration: none;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+}
+
+.callout h3 {
+	font-size: 21px;
+	margin: 3px 0 0 10px;
+	color: #369;
+	font-weight: bold;
+}
+
+.callout h4 {
+	margin: 5px 0 10px;
+	font-size: 14px; 
+	color: #cc0000;
+}
+
+.callout p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 5px;
+}
+
+hr {
+	clear: both;
+	border: 0;
+	background: white url('http://37signals.com/images/img-hr.png') no-repeat scroll 50% 50%;
+	color: transparent;
+	height: 12px;
+}
