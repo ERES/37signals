@@ -85,3 +85,10 @@ hr {
 	color: transparent;
 	height: 12px;
 }
+
+#arrow {
+	margin-left: 240px;
+	position: absolute;
+	left: 175px;
+	top: 315px;
+} 

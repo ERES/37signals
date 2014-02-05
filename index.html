@@ -4,6 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="application.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<title>37signals</title>
 </head>
 
@@ -19,9 +21,9 @@
 		<img src="images/logo-37s-large.png" alt="37-signals-logo">
 	</div>
 	<div id="product-container">
-		<h1>Making collaboration productive and enjoyable for people every day.</h1>
+		<h1 id="headline">Making collaboration productive and enjoyable for people every day.</h1>
 		<h3>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h3>
-		<div class="callout" style="margin-left: 80px">
+		<div class="callout" style="margin-left: 80px" id="basecamp">
 			<img src="images/logo-bc.png" >
 			<h3>
 				<span>Basecamp</span>
@@ -47,6 +49,9 @@
 			</h3>
 			<h4>Work in Real-Time</h4>
 			<p>Group chat rooms for your business.</p>
+		</div>
+		<div id="arrow">
+			<img src="images/arrow-left.png">
 		</div>
 	</div>
 	<hr>
