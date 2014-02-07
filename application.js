@@ -1,8 +1,32 @@
 $(document).ready(function(){
-	$('#basecamp').mouseover(function(){
-		$('#arrow').show();
+	$('#basecamp').mouseenter(function(){
+		$('#bc-arrow').show();
+		$('#bc-head').show();
+		$('#main-head').hide();
 	});
-	$('#basecamp').mouseout(function(){
-		$('arrow').hide();
+	$('#basecamp').mouseleave(function(){
+		$('#bc-arrow').hide();
+		$('#bc-head').hide();
+		$('#main-head').show();
+	});
+	$('#highrise').mouseenter(function(){
+		$('#hr-arrow').show();
+		$('#bc-head').show();
+		$('#main-head').hide();
+	});
+	$('#highrise').mouseleave(function(){
+		$('#hr-arrow').hide();
+		$('#bc-head').hide();
+		$('#main-head').show();
+	});
+	$('#compfire').mouseenter(function(){
+		$('#cf-arrow').show();
+		$('#bc-head').show();
+		$('#main-head').hide();
+	});
+	$('#compfire').mouseleave(function(){
+		$('#cf-arrow').hide();
+		$('#bc-head').hide();
+		$('#main-head').show();
 	});
 });
